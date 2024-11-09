@@ -38,6 +38,7 @@ public class LogIn extends javax.swing.JFrame {
         txt_password = new javax.swing.JPasswordField();
         txt_Usuario = new javax.swing.JTextField();
         jLabel6 = new javax.swing.JLabel();
+        jToolBar1 = new javax.swing.JToolBar();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -81,6 +82,9 @@ public class LogIn extends javax.swing.JFrame {
 
         jLabel6.setText("IMG_USER");
         jPanel2.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 200, -1, -1));
+
+        jToolBar1.setRollover(true);
+        jPanel2.add(jToolBar1, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 430, -1, -1));
 
         getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 0, 350, 500));
 
@@ -184,6 +188,7 @@ public class LogIn extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JToolBar jToolBar1;
     private javax.swing.JTextField txt_Usuario;
     private javax.swing.JPasswordField txt_password;
     // End of variables declaration//GEN-END:variables
